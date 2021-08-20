@@ -1,9 +1,6 @@
-# neogCamp-wakandan-talk
+# neogCamp-pirates-speak
 
-Wakanda is a fictional country located in Sub-Saharan Africa created by Marvel Comics. 
-It is home to the superhero Black Panther.
-
-This is a language translation app to convert english to wakandan language.
+This is a language translation app to convert english to pirates language.
 
 I have used translation api for the translation.
 
