@@ -1,6 +1,6 @@
 # neogCamp-pirates-speak
 
-This is a language translation app to convert english to pirate speak language.
+This is a language translation app to convert English to Pirate Speak language.
 
 I have used translation api for the translation.
 
