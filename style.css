@@ -19,7 +19,9 @@ nav {
     background-color: #ffff;
     background-color: #9CA3AF;
 
-    min-height: 10%;
+    margin-bottom: 2rem;
+
+   
 }
 
 nav .nav-title {
@@ -29,20 +31,7 @@ nav .nav-title {
     font-weight: 600;
 }
 
-#container {
 
-    /* border: 1px solid blue; */
-    height: 80%;
-    
-
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pirates.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-
-   
-
-}
 main {
     /* border: 1px solid red; */
     
@@ -51,10 +40,10 @@ main {
     padding: 1rem;
     margin: auto;
 
-    
-
-
-    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pirates.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
 
 #text-area {
@@ -70,6 +59,8 @@ main {
     margin-top: 1rem;
     padding: 1rem 2rem;
     font-size: large;
+
+    cursor:pointer;
 }
 
 #content {
@@ -103,7 +94,6 @@ footer {
 
     background-color: #9CA3AF;
 
-    min-height: 10%;
 }
 
 #footer-title {
