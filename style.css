@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
-:root {
-
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +8,115 @@
 
 }
 
+body {
+    height: 100vh;
+}
+nav {
+    /* border: 1px solid blue; */
+    text-align: center;
+
+
+    background-color: #ffff;
+    background-color: #9CA3AF;
+
+    min-height: 10%;
+}
+
+nav .nav-title {
+
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+#container {
+
+    /* border: 1px solid blue; */
+    height: 80%;
+    
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pirates.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+   
+
+}
 main {
-    max-width: 600px;
+    /* border: 1px solid red; */
+    
+    max-width: 60%;
+
+    padding: 1rem;
+    margin: auto;
+
+    
+
+
+    
 }
 
 #text-area {
     display: block;
     width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    padding: 1rem;
 }
+
+#btn-submit {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: large;
+}
+
+#content {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+#output {
+    border: 1px solid white;
+    background-color: white;
+
+    min-height: 15vh;
+    max-height: 20vh;
+    width: 100%;
+    overflow: scroll;
+
+    padding: 1rem;
+    font-size: large;
+}
+footer {
+    /* border: 1px solid green; */
+
+    background-color: #fff;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem;
+
+    text-align: center;
+
+    background-color: #9CA3AF;
+
+    min-height: 10%;
+}
+
+#footer-title {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#footer-content {
+    max-width: 60%;
+    margin: auto;
+
+    
+}
+
+
     
